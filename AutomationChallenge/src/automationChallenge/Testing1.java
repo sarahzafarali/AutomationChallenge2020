@@ -14,13 +14,13 @@ class Testing1 {
 	@Test
 	void test() {
 		// Setting system property for ChomeDriver
-				System.setProperty("webdriver.chrome.driver", "C:\\AutomationChallenge-2020\\chromeDriver\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 				
 				// new ChromeDriver instance
 				WebDriver driver = new ChromeDriver();
 				
 				// open the home page
-				driver.get("C:\\AutomationChallenge-2020\\index.html");
+				driver.get("C:\\index.html");
 
 				// Finding page Elements
 				WebElement emailAdd = driver.findElement(By.id("inputEmail"));

@@ -17,13 +17,13 @@ class Testing3 {
 		String expectedOption = "Option 1";
 		
 		// Setting system property for ChomeDriver
-		System.setProperty("webdriver.chrome.driver", "C:\\AutomationChallenge-2020\\chromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 				
 		// new ChromeDriver instance
 		WebDriver driver = new ChromeDriver();
 				
 		// open the home page
-		driver.get("C:\\AutomationChallenge-2020\\index.html");
+		driver.get("C:\\index.html");
 		
 		// Fetching the drop down button
 		WebElement button = driver.findElement(By.id("dropdownMenuButton"));

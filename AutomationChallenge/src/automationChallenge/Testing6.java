@@ -20,13 +20,13 @@ class Testing6 {
 		String expectedCellText = "Ventosanzap";
 		
 		// Setting system property for ChomeDriver
-		System.setProperty("webdriver.chrome.driver", "C:\\AutomationChallenge-2020\\chromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 				
 		// new ChromeDriver instance
 		WebDriver driver = new ChromeDriver();
 				
 		// open the home page
-		driver.get("C:\\AutomationChallenge-2020\\index.html");
+		driver.get("C:\\index.html");
 		
 		cellText = findingGridValues(driver, 2, 2);
 		System.out.println("The cell text in the main is " + cellText);

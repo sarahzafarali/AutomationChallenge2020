@@ -17,13 +17,13 @@ class Testing2 {
 	void activity2() {
 		
 		// Setting system property for ChomeDriver
-				System.setProperty("webdriver.chrome.driver", "C:\\AutomationChallenge-2020\\chromeDriver\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 						
 				// new ChromeDriver instance
 				WebDriver driver = new ChromeDriver();
 						
 				// open the home page
-				driver.get("C:\\AutomationChallenge-2020\\index.html");
+				driver.get("C:\\index.html");
 				
 				WebElement div2 = driver.findElement(By.id("test-2-div"));
 				
